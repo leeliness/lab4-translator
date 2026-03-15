@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  translator:
+    build: .
+    container_name: translator_lab
+    command: python filetr.py
